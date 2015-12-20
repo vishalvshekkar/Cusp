@@ -179,10 +179,6 @@ struct Angle {
         return angleToChangeQuadrant
     }
     
-    func switchToQuadrant(quadrant: StartQuadrant, andDirection: Direction) {
-        
-    }
-    
     func switchDirection() -> Angle {
         var newDirection: Direction
         let newDegreeAngle = Degree(degree: 360).addDegree(-self.degree.degree)
