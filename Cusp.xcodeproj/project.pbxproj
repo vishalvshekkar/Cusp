@@ -56,15 +56,23 @@
 		C95BE1851C273AD200597841 /* Cusp */ = {
 			isa = PBXGroup;
 			children = (
+				C95BE19A1C274F5900597841 /* Demo */,
+				C95BE1981C273AFD00597841 /* Cusp.swift */,
+			);
+			path = Cusp;
+			sourceTree = "<group>";
+		};
+		C95BE19A1C274F5900597841 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C95BE18D1C273AD200597841 /* Assets.xcassets */,
 				C95BE1861C273AD200597841 /* AppDelegate.swift */,
 				C95BE1881C273AD200597841 /* ViewController.swift */,
 				C95BE18A1C273AD200597841 /* Main.storyboard */,
-				C95BE1981C273AFD00597841 /* Cusp.swift */,
-				C95BE18D1C273AD200597841 /* Assets.xcassets */,
 				C95BE18F1C273AD200597841 /* LaunchScreen.storyboard */,
 				C95BE1921C273AD200597841 /* Info.plist */,
 			);
-			path = Cusp;
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
