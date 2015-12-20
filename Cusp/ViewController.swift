@@ -28,8 +28,8 @@ class ViewController: UIViewController {
         let fingerLine = Line(pointA: origin, pointB: fingerLocation)
         
         if let angle = Cusp.getAngle(origin, toLine: fingerLine) {
-            degreeLabel.text = "Degree: " + "\(angle.degree)"
-            radianLabel.text = "Radian: " + "\(angle.radian)"
+            degreeLabel.text = "Degree: " + "\(angle.degree.degree)"
+            radianLabel.text = "Radian: " + "\(angle.radian.radian)"
         }
         else {
             degreeLabel.text = "Degree: --"
