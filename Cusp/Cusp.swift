@@ -2,8 +2,8 @@
 //  Cusp.swift
 //  Cusp
 //
-//  Created by Vishal V Shekkar on 21/12/15.
-//  Copyright © 2015 Vishal. All rights reserved.
+//  Created by Vishal V. Shekkar on 21/12/15.
+//  Copyright © 2015 Vishal V. Shekkar. All rights reserved.
 //
 
 import UIKit
@@ -177,10 +177,6 @@ struct Angle {
             angleToChangeQuadrant = angleToChangeQuadrant.moveOneQuadrantForward()
         }
         return angleToChangeQuadrant
-    }
-    
-    func switchToQuadrant(quadrant: StartQuadrant, andDirection: Direction) {
-        
     }
     
     func switchDirection() -> Angle {
